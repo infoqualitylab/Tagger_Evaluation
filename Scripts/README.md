@@ -17,5 +17,10 @@ Sub-step 1: We used the ECitMatch API because it determines exact matches betwee
 
 Sub-step 2: For articles not matched by the ECitMatch API, we used the ESearch API because it returns a list of PMIDs as results of a single text query. Input was the title, the first author and the publication year. The Python script **"Step3.2_Get_PMIDs_ESearchAPI.ipynb"** was used to run ESearch API in order to get PMIDs of the included articles that were unsuccessfully matched PMIDs in the first sub-step.
 
+#### Step 4: Get RCT Tagger’s Predictions
+We ran the RCT Tagger on the PMIDs retrieved in step 3.
+
+#### Step 5: Error analysis
+We conducted an error analysis on the articles that were not processed by the RCT Tagger. 
 
 

@@ -11,7 +11,11 @@ The Python script **"Step1.1_Randomised_sampling.ipynb"** was used to randomly s
 The Python script **"Step2.1_Extract_MetaData_IncludedStudies.ipynb"** was used to extract metadata about each included article from each sampled review. The script read XML files of the reviews and extracted information of the included articles in each review and save into an Excel file for futher usage. 
 
 #### Step 3: Collect PubMed identifiers (PMIDs) for articles
-The Python script "
+To collect PubMed identifiers for the articles, we queried the PubMed API (https://www.ncbi.nlm.nih.gov/home/develop/api/) for PMIDs matching each article’s metadata, which included two sub-steps:
+
+Sub-step 1: We used the ECitMatch API because it determines exact matches between a citation string and a PMID. For each article, we input to ECitMatch its publication year, journal, volume, and page numbers. The Python script **"Step3.1_Get_PMIDs_ECitMatchAPI.ipynb"** was used to run ECitMatch API in order to get PMIDs of included articles in our dataset. 
+
+Sub-step 2: For articles not matched by the ECitMatch API, we used the ESearch API because it returns a list of PMIDs as results of a single text query. Input was the title, the first author and the publication year. The Python script **"Step3.2_Get_PMIDs_ESearchAPI.ipynb"** was used to run ESearch API in order to get PMIDs of the included articles that were unsuccessfully matched PMIDs in the first sub-step.
 
 
 

@@ -1,6 +1,6 @@
 ### Tagger Evaluation - Scripts
 
-The Python scripts in this folder were used to implement our evaluation of the RCT Tagger. These are the 5 steps in our evaluation of the RCT Tagger tool as shown in the following chart. In order to run the scripts, please make sure you have Python installed (version 3.1 or above recommended). 
+The Python scripts in this folder were used to implement our evaluation of the RCT Tagger. These are the 5 steps in our evaluation of the RCT Tagger tool as shown in the following chart. In order to run the scripts, please make sure you have Python installed (version 3.1 or above recommended). Data files that were created in each step were described in details at: https://github.com/infoqualitylab/Tagger_Evaluation/tree/master/Data
 
 ![Main steps of the RCT Tagger evaluation](https://github.com/infoqualitylab/Tagger_Evaluation/blob/master/Images/TaggerEvaluation_MainSteps.png)
 

@@ -1,6 +1,6 @@
 ### Tagger Evaluation - Data files
 
-This folder links to data files that were used and generated through out our evaluation study. The data files were deposited on a public repository and can be accessed through the following link:
+This folder links to data files that were used and generated throughout our evaluation study. The data files were deposited on a public repository and can be accessed through the following links:
 
 #### Data file 1: “File1_SampledReviewsIncludedRCTsOnly.xlsx”
 Kansara, Yogeshwar; Hoang, Linh; Dong, Xiaoru; Xie, Jingyi (2019): 	Sampled Cochrane Reviews that Only Included RCTs. University of Illinois at 	Urbana-Champaign. https://doi.org/10.13012/B2IDB-3285089_V1

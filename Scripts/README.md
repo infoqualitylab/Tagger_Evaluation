@@ -21,10 +21,16 @@ Sub-step 1: We used the ECitMatch API because it determines exact matches betwee
 
 Sub-step 2: For articles not matched by the ECitMatch API, we used the ESearch API because it returns a list of PMIDs as results of a single text query. Input was the title, the first author and the publication year. The Python script **"Step3.2_Get_PMIDs_ESearchAPI.ipynb"** was used to run ESearch API in order to get PMIDs of the included articles that were unsuccessfully matched PMIDs in the first sub-step.
 
+Sub-step 3: For each of articles that have PMIDs returned by the API, we compared its title and  abstract collected from the original Cochrane Review against the PubMed API. This resulted in two lists: a list of articles that had a PMID mapping error(which we excluded); and a list of articles that have PMID matches. The later one is used as input of the RCT Tagger to get RCT prediction scores.The Python script **"Step3.3_PMIDs_Mapping_Errors_Checking.ipynb"** was used to collect titles/abstracts of the articles from PubMed database and compared with those from the original Cochrane Reviews.
+
 #### Step 4: Get RCT Tagger’s Predictions
 We ran the RCT Tagger on the PMIDs retrieved in step 3.
 
 #### Step 5: Error analysis
-We conducted an error analysis on the articles that were not processed by the RCT Tagger. The Python script **Step5_Metadata_Analysis_of_Low_Scored_Articles.ipynb** was used to collect metadata of the articles given low scores by the RCT Tagger, including: their PubMed publication type, title, authors. We also manually collected their full-texts to do the error analysis. 
+We conducted an error analysis on the articles that given low scores by the RCT Tagger. 
+
+Sub-step 5.1.: We conducted error analysis of 44 articles that were given low scores by the RCT Tagger but marked with "Randomized Controlled Trial" publication type on PubMed. The Python script **Step5.1_Metadata_Analysis_of_Low_Scored_Articles.ipynb** was used to collect metadata of the articles given low scores by the RCT Tagger, including: their PubMed publication type, title, authors. We also manually collected their full-texts to do the error analysis. 
+
+Sub-step 5.2.: We conducted error analysis of 254 articles that were given low scores by the RCT Tagger without "Randomized Controlled Trial" publication type on PubMed. The Python script **Step5.2_Primary_Secondary_Studies_Analysis_Low_Scores_Articles.ipynb** was used to collect information about included studies in which the articles come from, including: characteristics of the included studies, whether the study is primary or secondary. 
 
 

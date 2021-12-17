@@ -2,7 +2,7 @@
 
 The Python scripts in this folder were used to implement our evaluation of the RCT Tagger. These are the 5 steps in our evaluation of the RCT Tagger tool as shown in the following chart. In order to run the scripts, please make sure you have Python installed (version 3.1 or above recommended). Data files that were created in each step were described in details at: https://github.com/infoqualitylab/Tagger_Evaluation/tree/master/Data
 
-![Main steps of the RCT Tagger evaluation](https://github.com/infoqualitylab/Tagger_Evaluation/blob/master/Images/TaggerEvaluation_MainSteps.png)
+![Main steps of the RCT Tagger evaluation](https://github.com/infoqualitylab/Tagger_Evaluation/blob/master/Images/TaggerEvaluation_MainSteps.png.PNG)
 
 #### Step 1: Select a sample of Cochrane reviews
 Our sampling strategy was to first take a representative sample consisting of 15% of the total reviews in the full Cochrane review dataset, and to second limit to reviews that only included RCT studies, according to the Cochrane reviews’ inclusion criteria. 

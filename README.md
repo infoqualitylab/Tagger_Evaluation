@@ -12,7 +12,7 @@ Cohen AM, Smalheiser NR, McDonagh MS, Yu C, Adams CE, Davis JM, Yu PS. Automated
 https://doi.org/10.1093/jamia/ocu025
 
 ## Key Background
-•	This work is part of our NIH-funded grant project, Text Mining Pipeline to Accelerate Systematic Reviews in Evidence-Based Medicine, which runs through 2020:
+•	This work is part of our NIH-funded grant project (R01LM010817), Text Mining Pipeline to Accelerate Systematic Reviews in Evidence-Based Medicine, which runs through 2021:
 http://ischool.illinois.edu/research/projects/text-mining-pipeline-accelerate-systematic-reviews-evidence-based-medicine
 
 •	Systematic review is a process for synthesizing literature: 

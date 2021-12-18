@@ -29,8 +29,8 @@ We ran the RCT Tagger on the PMIDs retrieved in step 3.
 #### Step 5: Error analysis
 We conducted an error analysis on the articles that given low scores by the RCT Tagger. 
 
-Sub-step 5.1.: We conducted error analysis of 44 articles that were given low scores by the RCT Tagger but marked with "Randomized Controlled Trial" publication type on PubMed. The Python script **Step5.1_Metadata_Analysis_of_Low_Scored_Articles.ipynb** was used to collect metadata of the articles given low scores by the RCT Tagger, including: their PubMed publication type, title, authors. We also manually collected their full-texts to do the error analysis. 
+Sub-step 5.1: We conducted error analysis of 44 articles that were given low scores by the RCT Tagger but marked with "Randomized Controlled Trial" publication type on PubMed. The Python script **Step5.1_Metadata_Analysis_of_Low_Scored_Articles.ipynb** was used to collect metadata of the articles given low scores by the RCT Tagger, including: their PubMed publication type, title, authors. We also manually collected their full-texts to do the error analysis. 
 
-Sub-step 5.2.: We conducted error analysis of 254 articles that were given low scores by the RCT Tagger without "Randomized Controlled Trial" publication type on PubMed. The Python script **Step5.2_Primary_Secondary_Studies_Analysis_Low_Scores_Articles.ipynb** was used to collect information about included studies in which the articles come from, including: characteristics of the included studies, whether the study is primary or secondary. 
+Sub-step 5.2: We conducted error analysis of 254 articles that were given low scores by the RCT Tagger without "Randomized Controlled Trial" publication type on PubMed. The Python script **Step5.2_Primary_Secondary_Studies_Analysis_Low_Scores_Articles.ipynb** was used to collect information about included studies in which the articles come from, including: characteristics of the included studies, whether the study is primary or secondary. 
 
 
